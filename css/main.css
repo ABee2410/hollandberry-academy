@@ -1,22 +1,22 @@
 /*** sectioning elements ***/
 
 body {
-
+font-family: 'Nixie One', cursive;
 }
 
 header {
-float: left;
-width: 100%;
 
+font-family: 'Patua One', cursive;
 }
 
 main {
 background-color: #f2eeec;
 }
 
-footer {
+footer, a:link, a:hover, a:visited, a:active {
 background-color:#78051e;
-font-family: sans-serif;
+font-family: 'Patua One', cursive;
+text-decoration: none;
 color:#fff;
 }
 
@@ -28,11 +28,9 @@ section {
 
 }
 section.module.parallax-1 {
-  background-image: url("../img/heading.jpg");
+  background-image: url("../img/header.jpg");
 }
-section.module.parallax-2 {
-  background-image: url("../img/heading.jpg");
-}
+
 
 aside {
 
@@ -66,7 +64,7 @@ h6 {
 }
 
 p {
-
+font-family: 'Ledger', serif;
 }
 
 blockquote {
@@ -94,11 +92,12 @@ tr {
 }
 
 th {
+font-family: 'Ledger', serif;
 
 }
 
 td {
-
+font-family: 'Ledger', serif;
 }
 
 
@@ -118,11 +117,17 @@ img.powerschool  {
 /*** link styles ***/
 
 a:link {
-
+background-color: inherit;
+color: #000;
+font-family: 'Ledger', serif;
+text-decoration: underline;
 }
 
 a:visited {
-
+  background-color: inherit;
+  color: #000;
+  font-family: 'Ledger', serif;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -142,8 +147,7 @@ Odin Overrides
 }
 
 .navbar-menu a:link, .navbar-menu a:visited{
- font-family: sans-serif;
-
+font-family: 'Patua One', cursive;
  color:#fff;
  list-style: none;
  margin: 0 ;
@@ -153,13 +157,13 @@ Odin Overrides
 }
 
 .navbar-menu a:hover, .navbar-menu a:active{
- font-family: sans-serif;
- font-weight: bold;
+ font-family: 'Patua One', cursive;
  list-style: none;
  margin: 0 ;
  padding-left: 11px;
  padding-right: 11px;
- text-decoration: none;
+ text-decoration: underline;
+}
 
 
 }
