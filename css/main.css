@@ -13,7 +13,7 @@ main {
 background-color: #f2eeec;
 }
 
-footer, a:link, a:hover, a:visited, a:active {
+footer {
 background-color:#78051e;
 font-family: 'Patua One', cursive;
 text-decoration: none;
@@ -56,7 +56,9 @@ h4 {
 }
 
 h5 {
-
+font-family: 'Patua One', cursive;
+color: #fff;
+font-size: 12px;
 }
 
 h6 {
@@ -165,5 +167,8 @@ font-family: 'Patua One', cursive;
  text-decoration: underline;
 }
 
-
-}
+/*footer links*/
+footer a {
+   color: #fff !important;
+   font-family: 'Patua One', cursive !important;
+  }
