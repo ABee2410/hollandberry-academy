@@ -10,7 +10,7 @@ font-family: 'Patua One', cursive;
 }
 
 main {
-background-color: #f2eeec;
+background-color: none;
 }
 
 footer {
@@ -27,10 +27,45 @@ nav {
 section {
 
 }
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 8px;
+  max-width: auto;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 50px 0;
+  background-color: rgba(205,200,200,0.9);
+max-width: auto;
+}
 section.module.parallax-1 {
   background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+section.module.parallax-2 {
+  background-image: url("../img/pencil.jpg");
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-3 {
+  background-image: url("../img/classroom.jpg");
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 aside {
 
@@ -67,6 +102,7 @@ h6 {
 
 p {
 font-family: 'Ledger', serif;
+font-size: 22px;
 }
 
 blockquote {
