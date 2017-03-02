@@ -1,0 +1,298 @@
+/*** sectioning elements ***/
+
+body {
+font-family: 'Nixie One', cursive;
+}
+
+header {
+
+font-family: 'Patua One', cursive;
+}
+
+main {
+background-color: none;
+}
+
+footer {
+background-color:#78051e;
+font-family: 'Patua One', cursive;
+text-decoration: none;
+color:#fff;
+}
+
+nav {
+
+}
+
+section {
+
+}
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 8px;
+  max-width: auto;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 50px 0;
+  background-color: rgba(200,195,195,0.8);
+max-width: auto;
+text-align: center;
+}
+section.module.parallax-1 {
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.module.parallax-2 {
+  background-image: url("../img/pencil.jpg");
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-3 {
+  background-image: url("../img/classroom.jpg");
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-4 {
+  background-image: url("../img/mountains.jpg");
+  background-position: 50% 50%;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-5 {
+  background-image: url("../img/natalialeap.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-6 {
+  background-image: url("../img/students.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-7 {
+  background-image: url("../img/harlem.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+font-family: 'Patua One', cursive;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+font-family: 'Ledger', serif;
+font-size: 22px;
+}
+
+p.contact {
+font-family: 'Ledger', serif;
+font-size: 14px;
+flex-flow: wrap;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+
+}
+
+table{
+  font-family: 'Ledger', serif;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 12px;
+  text-align: left;
+
+}
+
+caption{
+
+  font-size: 24px;
+  font-weight: bold;
+
+
+}
+
+th{
+  height: 100%;
+  background-color: #fdfdfd;
+  padding: 6px;
+
+}
+
+td{
+padding:5px;
+}
+
+tr{
+  border: 1px solid #aaaaaa;
+}
+
+tr:nth-child(even) {
+    color: #000016;
+}
+
+tr:nth-child(odd){
+background-color: #dddddd;
+color: #000016;
+}
+
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    margin: 7px 0;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+
+button{
+  font-family: cursive;
+}
+}
+/*** image styles ***/
+
+img  {
+  max-width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+img.powerschool  {
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+/*** link styles ***/
+
+a:link {
+background-color: inherit;
+color: #000;
+font-family: 'Ledger', serif;
+text-decoration: underline;
+}
+
+a:visited {
+  background-color: inherit;
+  color: #000;
+  font-family: 'Ledger', serif;
+  text-decoration: underline;
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+/* =======================================
+Odin Overrides
+=========================================*/
+/*navbar*/
+.navbar{
+   background-color:#78051e;
+}
+
+.navbar-menu a:link, .navbar-menu a:visited{
+font-family: 'Patua One', cursive;
+ color:#fff;
+ list-style: none;
+ margin: 0 ;
+ padding-left: 11px;
+ padding-right: 11px;
+
+}
+
+.navbar-menu a:hover, .navbar-menu a:active{
+ font-family: 'Patua One', cursive;
+ list-style: none;
+ margin: 0 ;
+ padding-left: 11px;
+ padding-right: 11px;
+ text-decoration: underline;
+}
+
+/*footer links*/
+footer a {
+   color: #fff !important;
+   font-family: 'Patua One', cursive !important;
+  }
