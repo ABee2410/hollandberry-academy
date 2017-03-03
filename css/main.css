@@ -104,6 +104,8 @@ aside {
 }
 
 
+
+
 /**** content styles ***/
 
 h1 {
@@ -261,6 +263,10 @@ a:hover {
 }
 
 a:active {
+
+}
+a.email{
+  text-align: left;
 
 }
 
