@@ -98,6 +98,27 @@ section.module.parallax-7 {
   background-attachment: fixed;
   background-size: cover;
 }
+section.module.parallax-8 {
+  background-image: url("../img/harlem.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-9 {
+  background-image: url("../img/harlem.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-10 {
+  background-image: url("../img/harlem.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 aside {
 
