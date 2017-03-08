@@ -43,8 +43,8 @@ section.module p:last-child {
 section.module.content {
   padding: 50px 0;
   background-color: rgba(200,195,195,0.8);
-max-width: auto;
-text-align: center;
+  max-width: auto;
+  text-align: center;
 }
 section.module.parallax-1 {
   background-image: url("../img/header.jpg");
@@ -99,21 +99,21 @@ section.module.parallax-7 {
   background-size: cover;
 }
 section.module.parallax-8 {
-  background-image: url("../img/harlem.jpg");
+  background-image: url("../img/dewoody.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 section.module.parallax-9 {
-  background-image: url("../img/harlem.jpg");
+  background-image: url("../img/statue.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 section.module.parallax-10 {
-  background-image: url("../img/harlem.jpg");
+  background-image: url("../img/theatre.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -245,10 +245,10 @@ color: #000016;
     float: left;
     font-weight: bold;
   }
+}
 
 button{
-  font-family: cursive;
-}
+
 }
 /*** image styles ***/
 
@@ -286,10 +286,12 @@ a:hover {
 a:active {
 
 }
-a.email{
-  text-align: left;
+
+a.lessons {
+  text-decoration: none;
 
 }
+
 
 /* =======================================
 Odin Overrides
@@ -316,6 +318,10 @@ font-family: 'Patua One', cursive;
  padding-left: 11px;
  padding-right: 11px;
  text-decoration: underline;
+}
+/***Button overrides***/
+button.button-secondary, button.button-lg {
+  line-height: 1.9;
 }
 
 /*footer links*/
