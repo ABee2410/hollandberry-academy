@@ -122,6 +122,13 @@ section.module.parallax-10 {
   background-size: cover;
 }
 
+section.module.parallax-12 {
+  background-image: url("../img/headmaster.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 aside {
 
 }
@@ -188,7 +195,7 @@ table{
   border-collapse: collapse;
   padding: 12px;
   text-align: left;
-
+  table-layout: fixed;
 }
 
 caption{
@@ -208,6 +215,7 @@ th{
 
 td{
 padding:5px;
+word-wrap: break-word;
 }
 
 tr{
@@ -249,8 +257,8 @@ color: #000016;
   }
 }
 
-button{
-
+button.button-danger{
+  background-color:#78051e;
 }
 /*** image styles ***/
 
@@ -292,6 +300,12 @@ a:active {
 a.lessons {
   text-decoration: none;
 
+}
+
+a.schedule {
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.9;
 }
 
 
