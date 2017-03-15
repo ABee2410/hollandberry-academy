@@ -122,6 +122,14 @@ section.module.parallax-10 {
   background-size: cover;
 }
 
+section.module.parallax-11 {
+  background-image: url("../img/mission.jpg");
+  background-position: 50% 50% right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 section.module.parallax-12 {
   background-image: url("../img/headmaster.jpg");
   background-position: 50% 50%;
@@ -129,6 +137,23 @@ section.module.parallax-12 {
   background-attachment: fixed;
   background-size: cover;
 }
+
+section.module.parallax-13 {
+  background-image: url("../img/pathway.jpg");
+  background-position: 50% 50% center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax-14 {
+  background-image: url("../img/graduation_.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 aside {
 
 }
